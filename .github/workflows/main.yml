@@ -32,7 +32,7 @@ jobs:
         with:
           # Disable running of tests within install job
           runTests: false
-          build: yarn build
+          build: npm run build
           
   test:
     needs: build
