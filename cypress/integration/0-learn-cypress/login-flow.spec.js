@@ -14,7 +14,7 @@ describe("Positive Test User Login Case", () => {
   })
   it('User fill form login', () => {
     cy.get('[ data-qa-id="input-username" ]').type("ablakubluk@yopmail.com")
-    cy.get('[ data-qa-id="input-password" ]').type("123456780")
+    cy.get('[ data-qa-id="input-password" ]').type("12345678")
   })
   it('User click button login', () => {
     cy.get('[ data-qa-id="btn-login" ]').click()
