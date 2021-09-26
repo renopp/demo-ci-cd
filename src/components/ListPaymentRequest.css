@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: large;
+}
+
+/* table body*/
+.ant-table-tbody > tr > td {
+  height: 45px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* table thead */
+.ant-table-thead > tr > th {
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.085em;
+  color: white;
+
+  background: #09539c;
+  height: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.table-row-light {
+  background-color: white;
+}
+.table-row-dark {
+  background-color: rgba(202, 223, 255, 0.282);
+}
+
+/* button */
+.ant-btn-primary {
+  background-color: #09539c;
+  border-radius: 6px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  border: none;
+  padding-left: 0;
+}
+.ant-btn-primary:hover {
+  background-color: #2e8bc0;
+}
+.anticon {
+  margin-left: 0;
+}

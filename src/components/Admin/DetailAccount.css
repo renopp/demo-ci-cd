@@ -1,0 +1,21 @@
+@import "~antd/dist/antd.css";
+
+body {
+  margin: 0;
+}
+
+.ant-select-selection-item {
+  margin-left: 0;
+}
+
+#role-password.ant-col {
+  width: 500px;
+}
+
+#role-detail.ant-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 700px;
+  margin-top: 90px;
+}

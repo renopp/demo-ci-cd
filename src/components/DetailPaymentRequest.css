@@ -1,0 +1,13 @@
+#button-detail {
+  margin-top: 50px !important;
+}
+
+#button-detail .ant-btn {
+  margin-left: 0;
+}
+
+#status-payment {
+  background-color: rgb(248, 247, 163);
+  padding: 4px 8px;
+  border-radius: 30px;
+}
