@@ -28,7 +28,7 @@
     "server": "./node_modules/json-server/lib/cli/bin.js --watch db.json --port 5000 -m ./node_modules/json-server-auth",
     "cypress-open": "cypress open",
     "cypress-run": "cypress run",
-    "serve-production-grade": "serve -s build -l 3000"
+    "serve-production-build": "serve -s build -l 3000"
   },
   "eslintConfig": {
     "extends": [
